@@ -59,7 +59,7 @@
 
 //         console.log(response.data.prediction);
 //         // Navigate with results (optional)
-//         navigate("/ask-grownius", { state: { ...inputs, ...response.data } });
+//         navigate("/ask-agronus", { state: { ...inputs, ...response.data } });
 //       } catch (error) {
 //         console.error("Error sending data to backend:", error);
 //       }
@@ -109,7 +109,7 @@
 //               type="submit"
 //               className="w-full mt-4 p-2 bg-cyan-700 text-white rounded-lg"
 //             >
-//               Ask Grownius
+//               Ask Agronus
 //             </button>
 //           </form>
 //         </div>
@@ -182,7 +182,7 @@ const HeroRight = () => {
         console.log(response.data.prediction);
 
         // Navigate with results, passing inputs and prediction data
-        navigate("/ask-grownius", { state: { ...inputs, prediction: response.data.prediction } });
+        navigate("/ask-agronus", { state: { ...inputs, prediction: response.data.prediction } });
       } catch (error) {
         console.error("Error sending data to backend:", error);
       }
@@ -206,14 +206,12 @@ const HeroRight = () => {
                     name={field}
                     value={inputs[field]}
                     onChange={handleChange}
-                    className={`border-[1.5px] ${
-                      errors[field] ? "border-red-500" : inputs[field] ? "border-[#04364A]" : "border-[#04364A4A]"
-                    } rounded-[8px] text-cyan-950 w-[151px] h-[50px] pl-[15px] font-medium outline-none bg-transparent placeholder-[#04364A4A]`}
+                    className={`border-[1.5px] ${errors[field] ? "border-red-500" : inputs[field] ? "border-[#04364A]" : "border-[#04364A4A]"
+                      } rounded-[8px] text-cyan-950 w-[151px] h-[50px] pl-[15px] font-medium outline-none bg-transparent placeholder-[#04364A4A]`}
                     type="text"
                     placeholder="_ _ _"
                   />
-                  <span className={`absolute right-3 top-[60%] transform -translate-y-1/2 transition-all duration-200 ${
-                      inputs[field] ? "text-[#04364A]" : "text-[#04364A4A]"
+                  <span className={`absolute right-3 top-[60%] transform -translate-y-1/2 transition-all duration-200 ${inputs[field] ? "text-[#04364A]" : "text-[#04364A4A]"
                     }`}>mg/kg</span>
                 </div>
                 {errors[field] && <p className="text-red-500 text-sm ">{errors[field]}</p>}
@@ -236,9 +234,8 @@ const HeroRight = () => {
                   onChange={handleChange}
                   type="text"
                   placeholder={placeholder}
-                  className={`border-[1.5px] ${
-                    errors[name] ? "border-red-500" : inputs[name] ? "border-[#04364A]" : "border-[#04364A4A]"
-                  } text-[#04364A] p-2 rounded-[8px] w-[500px] h-[50px] outline-none bg-transparent placeholder-[#04364A4A]`}
+                  className={`border-[1.5px] ${errors[name] ? "border-red-500" : inputs[name] ? "border-[#04364A]" : "border-[#04364A4A]"
+                    } text-[#04364A] p-2 rounded-[8px] w-[500px] h-[50px] outline-none bg-transparent placeholder-[#04364A4A]`}
                 />
                 <span className="absolute right-3 top-[60%] transform -translate-y-1/2 text-[#04364A4A]">{unit}</span>
               </div>
@@ -251,7 +248,7 @@ const HeroRight = () => {
               onClick={handleSubmit}
               className="flex items-center justify-center w-[500px] h-[60px] bg-cyan-700 rounded-[100px] text-[15px] font-bold text-white mt-[20px] transition duration-300 hover:bg-cyan-800"
             >
-              Ask Grownius
+              Ask Agronus
             </button>
           </div>
         </div>

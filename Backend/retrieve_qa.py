@@ -1,30 +1,32 @@
 import os
 import json
-import requests
 from flask import Flask, request, jsonify
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from flask_cors import CORS
 
 # Load environment variables
 load_dotenv()
-API_KEY = os.getenv("OPENROUTER_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-if not API_KEY:
-    raise ValueError("❌ API key not found in .env file!")
+if not GROQ_API_KEY:
+    print("Warning: GROQ_API_KEY not found in .env file!")
 
 # Initialize Flask app
 app = Flask(__name__)
 CORS(app)  # Allow all origins
 # Embedding model and vector store setup
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-vector_store = Chroma(persist_directory="./grownius_vdb", embedding_function=embedding_model)
+vector_store = Chroma(persist_directory="./agronus_vdb", embedding_function=embedding_model)
 
-headers = {
-    "Authorization": f"Bearer {API_KEY}",
-    "Content-Type": "application/json"
-}
+# Initialize Groq Model
+llm = ChatGroq(
+    model="llama-3.3-70b-versatile",
+    groq_api_key=GROQ_API_KEY,
+    temperature=0.7
+)
 
 def retrieve_context(query, top_k=3):
     """Retrieves relevant knowledge from ChromaDB."""
@@ -55,19 +57,11 @@ def chat():
     {context}
     """
     
-    # OpenRouter API request
-    request_payload = {
-        "model": "openai/gpt-4o",
-        "messages": [{"role": "user", "content": modified_prompt}]
-    }
-    
-    response = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=headers, json=request_payload)
-    
-    if response.status_code == 200:
-        ai_response = response.json()["choices"][0]["message"]["content"]
-        return jsonify({"rag_response": ai_response})
-    else:
-        return jsonify({"error": "AI API Error", "details": response.text}), response.status_code
+    try:
+        response = llm.invoke(modified_prompt)
+        return jsonify({"rag_response": response.content})
+    except Exception as e:
+        return jsonify({"error": "AI API Error", "details": str(e)}), 500
 
 if __name__ == "__main__":
     app.run(debug=True,port=5002)

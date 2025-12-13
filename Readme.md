@@ -1,10 +1,10 @@
-## Grownius - ZeroBug
+## Agronus - ZeroBug
 
 The Agri Related ChatBot wich integrates RAG Pipeline to give domain specific Knowledge
 
-# 🧠 Grownius - ZeroBug: RAG-based Agri Chatbot Architecture
+# 🧠 Agronus - ZeroBug: RAG-based Agri Chatbot Architecture
 
-![RAGCrop Methodology](New_Grownius.jpg)
+![RAGCrop Methodology](New_Agronus.jpg)
 
 You're welcome! Here's a reshaped, professional version of your **"How to Run"** section for the `README.md`, formatted with clean headings, bullet points, and code blocks:
 
@@ -29,7 +29,9 @@ You're welcome! Here's a reshaped, professional version of your **"How to Run"**
 3. Start the backend server:
 
    ```bash
-   python Grownius.py
+   python Agronus.py   # Crop Prediction
+   python backend.py   # Prediction API
+   python retrieve_qa.py # Chat API
    ```
 
 

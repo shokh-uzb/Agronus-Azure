@@ -9,7 +9,7 @@ load_dotenv()
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # Load ChromaDB
-chroma_db_path = "./grownius_vdb"
+chroma_db_path = "./agronus_vdb"
 vector_store = Chroma(persist_directory=chroma_db_path, embedding_function=embedding_model)
 
 # Retrieve and print 10 stored vectors

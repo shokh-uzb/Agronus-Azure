@@ -1,0 +1,660 @@
+Primary Crop: rice
+Input Conditions: {'N': '74', 'P': '35', 'K': '40', 'pH': '6.980400905', 'Rainfall': '242.8640342', 'Humidity': '80.15836264', 'Temperature': '26.49109635'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: rice
+Input Conditions: {'N': '76', 'P': '40', 'K': '43', 'pH': '5.070175667', 'Rainfall': '231.3843163', 'Humidity': '83.11713476', 'Temperature': '25.15745531'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: rice
+Input Conditions: {'N': '77', 'P': '36', 'K': '37', 'pH': '6.136131869', 'Rainfall': '194.5766559', 'Humidity': '81.46033732', 'Temperature': '26.88444878'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: rice
+Input Conditions: {'N': '92', 'P': '35', 'K': '40', 'pH': '6.3573893660000005', 'Rainfall': '200.0882787', 'Humidity': '80.33127223', 'Temperature': '22.17931888'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: rice
+Input Conditions: {'N': '91', 'P': '50', 'K': '40', 'pH': '6.462391607000001', 'Rainfall': '230.22422230000004', 'Humidity': '84.1341879', 'Temperature': '20.82477109'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: maize
+Input Conditions: {'N': '77', 'P': '58', 'K': '19', 'pH': '5.791649933', 'Rainfall': '101.5952794', 'Humidity': '56.50768935', 'Temperature': '22.8056033'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: maize
+Input Conditions: {'N': '77', 'P': '57', 'K': '21', 'pH': '6.550563822999999', 'Rainfall': '79.74078719', 'Humidity': '73.80435276', 'Temperature': '24.9321581'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: maize
+Input Conditions: {'N': '84', 'P': '57', 'K': '25', 'pH': '6.489040367', 'Rainfall': '64.40866039', 'Humidity': '67.99257471', 'Temperature': '22.53510514'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: maize
+Input Conditions: {'N': '73', 'P': '58', 'K': '21', 'pH': '6.596060648', 'Rainfall': '60.65171481', 'Humidity': '57.68272924', 'Temperature': '19.97215954'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: maize
+Input Conditions: {'N': '74', 'P': '56', 'K': '22', 'pH': '6.829199275', 'Rainfall': '80.97573281', 'Humidity': '66.65952796', 'Temperature': '18.28362235'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: chickpea
+Input Conditions: {'N': '24', 'P': '55', 'K': '78', 'pH': '6.64919573', 'Rainfall': '75.57790384', 'Humidity': '15.15405941', 'Temperature': '17.30287885'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: chickpea
+Input Conditions: {'N': '30', 'P': '75', 'K': '81', 'pH': '6.4084378860000015', 'Rainfall': '68.4951189', 'Humidity': '16.80472243', 'Temperature': '19.41789736'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: chickpea
+Input Conditions: {'N': '42', 'P': '67', 'K': '77', 'pH': '7.114405288', 'Rainfall': '78.69707199', 'Humidity': '15.9362937', 'Temperature': '18.99424448'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: chickpea
+Input Conditions: {'N': '36', 'P': '76', 'K': '75', 'pH': '8.736337905', 'Rainfall': '70.52056697', 'Humidity': '16.63805158', 'Temperature': '18.38120357'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: chickpea
+Input Conditions: {'N': '42', 'P': '74', 'K': '83', 'pH': '7.545258424', 'Rainfall': '65.78042032', 'Humidity': '14.2804191', 'Temperature': '19.2582557'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: kidneybeans
+Input Conditions: {'N': '14', 'P': '67', 'K': '22', 'pH': '5.624690247999999', 'Rainfall': '84.64143632', 'Humidity': '24.75485098', 'Temperature': '23.82576704'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: kidneybeans
+Input Conditions: {'N': '32', 'P': '57', 'K': '18', 'pH': '5.695422862999999', 'Rainfall': '107.3850593', 'Humidity': '23.75560241', 'Temperature': '15.53834801'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: kidneybeans
+Input Conditions: {'N': '13', 'P': '60', 'K': '25', 'pH': '5.68597166', 'Rainfall': '128.256862', 'Humidity': '20.59541693', 'Temperature': '17.13692774'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: kidneybeans
+Input Conditions: {'N': '31', 'P': '75', 'K': '18', 'pH': '5.8242083089999985', 'Rainfall': '88.88796102', 'Humidity': '21.43780702', 'Temperature': '15.46789263'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: kidneybeans
+Input Conditions: {'N': '17', 'P': '57', 'K': '21', 'pH': '5.7892142889999985', 'Rainfall': '60.91974792', 'Humidity': '20.31564139', 'Temperature': '19.88394011'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pigeonpeas
+Input Conditions: {'N': '30', 'P': '60', 'K': '21', 'pH': '5.457871272999999', 'Rainfall': '182.2688175', 'Humidity': '62.4901206', 'Temperature': '28.87667593'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pigeonpeas
+Input Conditions: {'N': '39', 'P': '57', 'K': '19', 'pH': '6.421748487', 'Rainfall': '165.4113371', 'Humidity': '45.93248374', 'Temperature': '29.32379604'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pigeonpeas
+Input Conditions: {'N': '1', 'P': '66', 'K': '23', 'pH': '4.803564468', 'Rainfall': '173.1686574', 'Humidity': '56.92831399', 'Temperature': '19.54317155'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pigeonpeas
+Input Conditions: {'N': '5', 'P': '77', 'K': '19', 'pH': '6.242052013', 'Rainfall': '175.9303271', 'Humidity': '66.68832981', 'Temperature': '31.08564994'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pigeonpeas
+Input Conditions: {'N': '38', 'P': '72', 'K': '21', 'pH': '5.902103172', 'Rainfall': '186.5008581', 'Humidity': '49.4421345', 'Temperature': '28.23416057'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mothbeans
+Input Conditions: {'N': '17', 'P': '43', 'K': '22', 'pH': '5.498340807999999', 'Rainfall': '41.0550915', 'Humidity': '45.90067655', 'Temperature': '30.06142622'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mothbeans
+Input Conditions: {'N': '40', 'P': '49', 'K': '17', 'pH': '6.68727523', 'Rainfall': '53.56783314', 'Humidity': '45.89239456', 'Temperature': '31.02215872'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mothbeans
+Input Conditions: {'N': '11', 'P': '45', 'K': '19', 'pH': '3.828031463', 'Rainfall': '44.11622138', 'Humidity': '44.359648', 'Temperature': '28.70012137'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mothbeans
+Input Conditions: {'N': '3', 'P': '49', 'K': '18', 'pH': '3.692863601', 'Rainfall': '32.67891866', 'Humidity': '64.70930606', 'Temperature': '27.91095209'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mothbeans
+Input Conditions: {'N': '30', 'P': '41', 'K': '15', 'pH': '5.88509677', 'Rainfall': '52.0810886', 'Humidity': '44.17085032', 'Temperature': '24.83206631'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mungbean
+Input Conditions: {'N': '25', 'P': '48', 'K': '21', 'pH': '6.267684328', 'Rainfall': '52.55469976', 'Humidity': '83.48991368', 'Temperature': '28.438097'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mungbean
+Input Conditions: {'N': '36', 'P': '55', 'K': '20', 'pH': '6.635968697999999', 'Rainfall': '55.296354', 'Humidity': '84.34262707', 'Temperature': '27.01470397'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mungbean
+Input Conditions: {'N': '34', 'P': '45', 'K': '21', 'pH': '6.2873801170000005', 'Rainfall': '37.01110438', 'Humidity': '82.60629652', 'Temperature': '28.18837136'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mungbean
+Input Conditions: {'N': '37', 'P': '49', 'K': '25', 'pH': '6.415459592', 'Rainfall': '41.39081525', 'Humidity': '85.85384444', 'Temperature': '29.914544300000006'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mungbean
+Input Conditions: {'N': '29', 'P': '36', 'K': '25', 'pH': '7.130278657000001', 'Rainfall': '48.56690235', 'Humidity': '88.4393979', 'Temperature': '28.28511547'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: blackgram
+Input Conditions: {'N': '36', 'P': '66', 'K': '15', 'pH': '6.668238556', 'Rainfall': '67.1367443', 'Humidity': '69.34811988', 'Temperature': '30.08545364'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: blackgram
+Input Conditions: {'N': '60', 'P': '59', 'K': '22', 'pH': '7.191522601', 'Rainfall': '74.22238583', 'Humidity': '66.74217464', 'Temperature': '31.86847286'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: blackgram
+Input Conditions: {'N': '59', 'P': '55', 'K': '19', 'pH': '7.332375138', 'Rainfall': '68.97097538', 'Humidity': '62.51007687', 'Temperature': '31.74379487'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: blackgram
+Input Conditions: {'N': '58', 'P': '71', 'K': '15', 'pH': '6.919243702', 'Rainfall': '74.01229707', 'Humidity': '67.58618829999999', 'Temperature': '27.82592799'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: blackgram
+Input Conditions: {'N': '33', 'P': '75', 'K': '21', 'pH': '6.690655045', 'Rainfall': '62.30278274', 'Humidity': '68.93875631', 'Temperature': '33.04687968'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: lentil
+Input Conditions: {'N': '39', 'P': '70', 'K': '15', 'pH': '6.366355781', 'Rainfall': '47.9271552', 'Humidity': '63.90164154', 'Temperature': '20.76774783'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: lentil
+Input Conditions: {'N': '36', 'P': '65', 'K': '16', 'pH': '7.692013657', 'Rainfall': '50.17067771', 'Humidity': '64.1123333', 'Temperature': '25.71269843'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: lentil
+Input Conditions: {'N': '33', 'P': '77', 'K': '15', 'pH': '7.802212437', 'Rainfall': '40.74536757', 'Humidity': '66.32102048', 'Temperature': '23.89736406'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: lentil
+Input Conditions: {'N': '10', 'P': '75', 'K': '17', 'pH': '7.732194787999999', 'Rainfall': '39.00992137', 'Humidity': '68.05394959', 'Temperature': '18.43966037'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: lentil
+Input Conditions: {'N': '4', 'P': '59', 'K': '19', 'pH': '7.621494566', 'Rainfall': '40.8106299', 'Humidity': '67.62779652', 'Temperature': '26.25070298'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pomegranate
+Input Conditions: {'N': '9', 'P': '8', 'K': '40', 'pH': '6.553509673', 'Rainfall': '111.6631582', 'Humidity': '89.9224883', 'Temperature': '22.48720144'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pomegranate
+Input Conditions: {'N': '39', 'P': '25', 'K': '36', 'pH': '5.567805185', 'Rainfall': '107.6103211', 'Humidity': '94.99897537', 'Temperature': '18.90223032'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pomegranate
+Input Conditions: {'N': '11', 'P': '18', 'K': '42', 'pH': '5.938528744', 'Rainfall': '102.8593382', 'Humidity': '94.88267728', 'Temperature': '21.57936934'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pomegranate
+Input Conditions: {'N': '1', 'P': '27', 'K': '36', 'pH': '5.684995235', 'Rainfall': '104.991282', 'Humidity': '93.34236582', 'Temperature': '23.98598756'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: pomegranate
+Input Conditions: {'N': '0', 'P': '17', 'K': '42', 'pH': '6.8598408210000015', 'Rainfall': '109.0946323', 'Humidity': '91.19442671', 'Temperature': '23.20242586'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: banana
+Input Conditions: {'N': '85', 'P': '89', 'K': '51', 'pH': '6.1581644220000005', 'Rainfall': '108.5501443', 'Humidity': '84.70189923', 'Temperature': '29.21144871'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: banana
+Input Conditions: {'N': '118', 'P': '88', 'K': '51', 'pH': '6.201911642000001', 'Rainfall': '100.6619171', 'Humidity': '79.49221962', 'Temperature': '25.44926208'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: banana
+Input Conditions: {'N': '82', 'P': '75', 'K': '55', 'pH': '6.281069505', 'Rainfall': '92.15524332', 'Humidity': '78.48738349999998', 'Temperature': '27.34585147'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: banana
+Input Conditions: {'N': '94', 'P': '70', 'K': '48', 'pH': '6.195152442', 'Rainfall': '91.46442491', 'Humidity': '84.88394407', 'Temperature': '25.13686519'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: banana
+Input Conditions: {'N': '99', 'P': '70', 'K': '46', 'pH': '5.727469947', 'Rainfall': '100.5123341', 'Humidity': '82.99556744', 'Temperature': '26.59580783'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mango
+Input Conditions: {'N': '22', 'P': '17', 'K': '26', 'pH': '4.754435025', 'Rainfall': '99.642454', 'Humidity': '47.71875722', 'Temperature': '28.69818144'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mango
+Input Conditions: {'N': '20', 'P': '19', 'K': '35', 'pH': '6.113935087000001', 'Rainfall': '98.00687989', 'Humidity': '50.62161586', 'Temperature': '34.17719782'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mango
+Input Conditions: {'N': '3', 'P': '18', 'K': '31', 'pH': '6.392313972999999', 'Rainfall': '91.09745581', 'Humidity': '48.20662669', 'Temperature': '31.65333432'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mango
+Input Conditions: {'N': '27', 'P': '21', 'K': '30', 'pH': '5.061081874', 'Rainfall': '91.22881052', 'Humidity': '52.48823147', 'Temperature': '35.3915464'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: mango
+Input Conditions: {'N': '9', 'P': '29', 'K': '34', 'pH': '5.72742254', 'Rainfall': '100.8124659', 'Humidity': '45.88744691', 'Temperature': '29.38471637'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: grapes
+Input Conditions: {'N': '1', 'P': '132', 'K': '200', 'pH': '5.620745638', 'Rainfall': '66.57462809', 'Humidity': '82.94270065', 'Temperature': '16.27852801'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: grapes
+Input Conditions: {'N': '4', 'P': '136', 'K': '204', 'pH': '5.898944282', 'Rainfall': '65.52279323', 'Humidity': '81.77713468', 'Temperature': '29.93707596'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: grapes
+Input Conditions: {'N': '2', 'P': '123', 'K': '198', 'pH': '6.253034534', 'Rainfall': '70.39906054', 'Humidity': '82.21079946', 'Temperature': '39.64851881'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: grapes
+Input Conditions: {'N': '14', 'P': '131', 'K': '198', 'pH': '5.562790949', 'Rainfall': '67.92204319', 'Humidity': '83.86742974', 'Temperature': '33.4641162'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: grapes
+Input Conditions: {'N': '24', 'P': '130', 'K': '195', 'pH': '6.112305667', 'Rainfall': '67.12534492', 'Humidity': '81.54156612', 'Temperature': '29.99677232'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: watermelon
+Input Conditions: {'N': '113', 'P': '30', 'K': '50', 'pH': '6.277484042999999', 'Rainfall': '43.87712348', 'Humidity': '83.9862443', 'Temperature': '26.03967219'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: watermelon
+Input Conditions: {'N': '97', 'P': '8', 'K': '52', 'pH': '6.237861736', 'Rainfall': '49.48575692', 'Humidity': '86.97190046', 'Temperature': '24.9103226'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: watermelon
+Input Conditions: {'N': '98', 'P': '25', 'K': '52', 'pH': '6.224066378', 'Rainfall': '49.29456609', 'Humidity': '83.15393658', 'Temperature': '25.2801372'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: watermelon
+Input Conditions: {'N': '83', 'P': '23', 'K': '55', 'pH': '6.463271076', 'Rainfall': '43.97193745', 'Humidity': '83.89241484', 'Temperature': '26.89750174'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: watermelon
+Input Conditions: {'N': '82', 'P': '25', 'K': '51', 'pH': '6.074209622000001', 'Rainfall': '48.11248366', 'Humidity': '87.47409052', 'Temperature': '24.31334971'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: muskmelon
+Input Conditions: {'N': '87', 'P': '14', 'K': '48', 'pH': '6.606033244', 'Rainfall': '29.1102594', 'Humidity': '92.58862544', 'Temperature': '29.69238699'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: muskmelon
+Input Conditions: {'N': '89', 'P': '25', 'K': '50', 'pH': '6.375923383', 'Rainfall': '25.08146686', 'Humidity': '91.34685096', 'Temperature': '27.04863538'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: muskmelon
+Input Conditions: {'N': '89', 'P': '9', 'K': '47', 'pH': '6.6683827660000015', 'Rainfall': '28.75226067', 'Humidity': '90.77069618', 'Temperature': '29.47156259'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: muskmelon
+Input Conditions: {'N': '98', 'P': '26', 'K': '52', 'pH': '6.1500908989999985', 'Rainfall': '28.69113835', 'Humidity': '90.69759008', 'Temperature': '27.33897716'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: muskmelon
+Input Conditions: {'N': '83', 'P': '11', 'K': '53', 'pH': '6.163921247999999', 'Rainfall': '21.9653077', 'Humidity': '92.91778307', 'Temperature': '29.54097171'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: apple
+Input Conditions: {'N': '17', 'P': '136', 'K': '196', 'pH': '5.882155987999999', 'Rainfall': '103.0548094', 'Humidity': '90.49939035', 'Temperature': '23.87192332'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: apple
+Input Conditions: {'N': '1', 'P': '124', 'K': '199', 'pH': '5.658473817000001', 'Rainfall': '112.66765890000002', 'Humidity': '93.27392415', 'Temperature': '23.71059131'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: apple
+Input Conditions: {'N': '30', 'P': '143', 'K': '199', 'pH': '5.7983508000000015', 'Rainfall': '102.2648546', 'Humidity': '90.59810302', 'Temperature': '23.76881552'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: apple
+Input Conditions: {'N': '8', 'P': '120', 'K': '201', 'pH': '6.321152192', 'Rainfall': '122.233323', 'Humidity': '91.13435689', 'Temperature': '21.18667419'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: apple
+Input Conditions: {'N': '12', 'P': '129', 'K': '205', 'pH': '6.119432215', 'Rainfall': '118.68327250000002', 'Humidity': '91.15761594', 'Temperature': '22.36238282'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: orange
+Input Conditions: {'N': '19', 'P': '7', 'K': '9', 'pH': '6.969883482999999', 'Rainfall': '101.139435', 'Humidity': '91.71369387', 'Temperature': '27.255435'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: orange
+Input Conditions: {'N': '13', 'P': '8', 'K': '12', 'pH': '7.105904818', 'Rainfall': '114.3117197', 'Humidity': '92.54736032', 'Temperature': '25.16296632'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: orange
+Input Conditions: {'N': '19', 'P': '7', 'K': '10', 'pH': '6.118430299', 'Rainfall': '100.1961762', 'Humidity': '91.22062116', 'Temperature': '14.78003032'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: orange
+Input Conditions: {'N': '16', 'P': '8', 'K': '9', 'pH': '7.601189842999999', 'Rainfall': '111.2948115', 'Humidity': '91.28408653', 'Temperature': '24.60297538'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: orange
+Input Conditions: {'N': '20', 'P': '29', 'K': '10', 'pH': '7.36549204', 'Rainfall': '100.7896871', 'Humidity': '93.27189064', 'Temperature': '29.07412717'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: papaya
+Input Conditions: {'N': '48', 'P': '62', 'K': '47', 'pH': '6.803094965', 'Rainfall': '174.40123369999995', 'Humidity': '93.02871078', 'Temperature': '25.34756111'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: papaya
+Input Conditions: {'N': '43', 'P': '50', 'K': '48', 'pH': '6.63016515', 'Rainfall': '179.27208069999998', 'Humidity': '91.37059792', 'Temperature': '28.28222883'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: papaya
+Input Conditions: {'N': '54', 'P': '65', 'K': '47', 'pH': '6.721835879', 'Rainfall': '149.91075569999995', 'Humidity': '91.55594211', 'Temperature': '27.92765919'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: papaya
+Input Conditions: {'N': '32', 'P': '55', 'K': '52', 'pH': '6.967759599999999', 'Rainfall': '159.6577388', 'Humidity': '91.99740365', 'Temperature': '37.58899717'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: papaya
+Input Conditions: {'N': '54', 'P': '67', 'K': '52', 'pH': '6.586107335', 'Rainfall': '141.3381168', 'Humidity': '93.30641944', 'Temperature': '35.67667332'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coconut
+Input Conditions: {'N': '20', 'P': '28', 'K': '26', 'pH': '5.547594847', 'Rainfall': '167.0470997', 'Humidity': '91.49882979', 'Temperature': '26.37978453'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coconut
+Input Conditions: {'N': '25', 'P': '7', 'K': '35', 'pH': '5.55771171', 'Rainfall': '189.67113490000003', 'Humidity': '99.18843684', 'Temperature': '28.38503882'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coconut
+Input Conditions: {'N': '38', 'P': '24', 'K': '33', 'pH': '5.973853124', 'Rainfall': '142.9403233', 'Humidity': '97.00396405', 'Temperature': '28.28905147'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coconut
+Input Conditions: {'N': '0', 'P': '29', 'K': '32', 'pH': '5.868255858', 'Rainfall': '171.65163959999995', 'Humidity': '98.3670985', 'Temperature': '28.05912437'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coconut
+Input Conditions: {'N': '39', 'P': '29', 'K': '29', 'pH': '6.143662699', 'Rainfall': '199.8778403', 'Humidity': '94.48414544', 'Temperature': '26.50908611'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: cotton
+Input Conditions: {'N': '100', 'P': '52', 'K': '19', 'pH': '7.903528672999999', 'Rainfall': '93.50153555', 'Humidity': '82.44777468', 'Temperature': '23.45969093'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: cotton
+Input Conditions: {'N': '129', 'P': '43', 'K': '16', 'pH': '6.73210948', 'Rainfall': '78.58488484', 'Humidity': '77.85055621', 'Temperature': '25.5503704'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: cotton
+Input Conditions: {'N': '114', 'P': '40', 'K': '23', 'pH': '6.7539780610000015', 'Rainfall': '95.4262599', 'Humidity': '81.13668716', 'Temperature': '25.53676123'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: cotton
+Input Conditions: {'N': '107', 'P': '58', 'K': '15', 'pH': '7.55606399', 'Rainfall': '76.63669195', 'Humidity': '75.77503808', 'Temperature': '23.73868041'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: cotton
+Input Conditions: {'N': '108', 'P': '36', 'K': '19', 'pH': '7.238566893', 'Rainfall': '64.61444234', 'Humidity': '77.51235009', 'Temperature': '22.78249615'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: jute
+Input Conditions: {'N': '67', 'P': '43', 'K': '38', 'pH': '7.299304715', 'Rainfall': '195.8645552', 'Humidity': '70.88259632', 'Temperature': '25.21622704'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: jute
+Input Conditions: {'N': '72', 'P': '42', 'K': '43', 'pH': '6.352771037', 'Rainfall': '181.2915605', 'Humidity': '80.90424543', 'Temperature': '26.56767277'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: jute
+Input Conditions: {'N': '100', 'P': '35', 'K': '36', 'pH': '6.346715209', 'Rainfall': '190.5577618', 'Humidity': '72.01364411', 'Temperature': '25.31042337'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: jute
+Input Conditions: {'N': '62', 'P': '49', 'K': '37', 'pH': '7.479248124', 'Rainfall': '166.13658859999995', 'Humidity': '82.85284045', 'Temperature': '24.21744605'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: jute
+Input Conditions: {'N': '89', 'P': '41', 'K': '38', 'pH': '6.344751947000001', 'Rainfall': '199.83629130000003', 'Humidity': '74.68322732', 'Temperature': '23.12844351'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coffee
+Input Conditions: {'N': '107', 'P': '31', 'K': '31', 'pH': '6.766184468', 'Rainfall': '153.12016440000005', 'Humidity': '52.97841162', 'Temperature': '23.17124551'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coffee
+Input Conditions: {'N': '100', 'P': '32', 'K': '26', 'pH': '6.043485685', 'Rainfall': '124.2261737', 'Humidity': '57.53161469', 'Temperature': '25.234661'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coffee
+Input Conditions: {'N': '116', 'P': '23', 'K': '25', 'pH': '6.869720196', 'Rainfall': '139.3670753', 'Humidity': '52.26994674', 'Temperature': '23.4123707'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coffee
+Input Conditions: {'N': '82', 'P': '29', 'K': '35', 'pH': '6.246872394', 'Rainfall': '156.15438980000005', 'Humidity': '52.24226285', 'Temperature': '26.67377159'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
+Primary Crop: coffee
+Input Conditions: {'N': '82', 'P': '24', 'K': '26', 'pH': '6.089443602999999', 'Rainfall': '184.4103931', 'Humidity': '53.57285558', 'Temperature': '24.31274458'}
+LLaMA Suggestions:
+Error invoking LLM: [WinError 2] The system cannot find the file specified
+================================================================================
+
