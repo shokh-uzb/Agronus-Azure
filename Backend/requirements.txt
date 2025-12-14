@@ -25,3 +25,4 @@ sentence-transformers
 # Vector Database (ChromaDB - Local)
 chromadb
 langchain-groq
+langchain-openai

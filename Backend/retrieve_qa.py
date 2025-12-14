@@ -3,28 +3,35 @@ import json
 from flask import Flask, request, jsonify
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_groq import ChatGroq
+from langchain_openai import AzureChatOpenAI
 from dotenv import load_dotenv
 from flask_cors import CORS
 
 # Load environment variables
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
 
-if not GROQ_API_KEY:
-    print("Warning: GROQ_API_KEY not found in .env file!")
+if not AZURE_OPENAI_API_KEY:
+    print("Warning: AZURE_OPENAI_API_KEY not found in .env file!")
+if not AZURE_OPENAI_ENDPOINT:
+    print("Warning: AZURE_OPENAI_ENDPOINT not found in .env file!")
 
 # Initialize Flask app
 app = Flask(__name__)
 CORS(app)  # Allow all origins
+
 # Embedding model and vector store setup
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vector_store = Chroma(persist_directory="./agronus_vdb", embedding_function=embedding_model)
 
-# Initialize Groq Model
-llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
-    groq_api_key=GROQ_API_KEY,
+# Initialize Azure OpenAI Model
+llm = AzureChatOpenAI(
+    azure_deployment=AZURE_OPENAI_DEPLOYMENT,
+    api_version="2025-01-01-preview",
+    azure_endpoint=AZURE_OPENAI_ENDPOINT,
+    api_key=AZURE_OPENAI_API_KEY,
     temperature=0.7
 )
 

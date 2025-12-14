@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Send, Menu, Sprout, Plus, MessageSquare, User, Bot, Loader2, Settings, Thermometer, Droplets } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
 
 const ChatInterface = () => {
     const [messages, setMessages] = useState([
@@ -53,17 +54,20 @@ const ChatInterface = () => {
         setInput('');
         setIsLoading(true);
 
+        // Use environment variable for API URL, fallback to localhost
+        const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+
         try {
             // 1. Send Prediction Request (Store Context)
-            const predResponse = await axios.post("http://127.0.0.1:5001/predict", soilParams);
+            const predResponse = await axios.post(`${API_URL}/predict`, soilParams);
             console.log("Prediction context set:", predResponse.data);
 
             // 2. Send User Query (RAG)
-            const queryResponse = await axios.post("http://127.0.0.1:5001/userQuery", { text: input });
+            const queryResponse = await axios.post(`${API_URL}/userQuery`, { text: input });
             const prompt = queryResponse.data.prompt;
 
             // 3. Get LLM Response
-            const ragResponse = await axios.post("http://127.0.0.1:5002/chat", { prompt: prompt });
+            const ragResponse = await axios.post(`${API_URL}/chat`, { prompt: prompt });
 
             const aiMessage = {
                 role: 'ai',
@@ -208,7 +212,9 @@ const ChatInterface = () => {
                                             : 'bg-slate-800 text-slate-200 rounded-bl-none border border-slate-700'}
                                     `}
                                 >
-                                    <p className="whitespace-pre-wrap leading-relaxed text-[15px]">{msg.content}</p>
+                                    <div className="prose prose-invert prose-sm max-w-none leading-relaxed text-[15px] [&>p]:my-2 [&>h1]:text-lg [&>h1]:font-bold [&>h1]:mt-4 [&>h1]:mb-2 [&>h2]:text-base [&>h2]:font-bold [&>h2]:mt-3 [&>h2]:mb-2 [&>h3]:text-sm [&>h3]:font-semibold [&>h3]:mt-2 [&>h3]:mb-1 [&>ul]:my-2 [&>ul]:pl-4 [&>ol]:my-2 [&>ol]:pl-4 [&>li]:my-1 [&>strong]:text-green-400">
+                                        <ReactMarkdown>{msg.content}</ReactMarkdown>
+                                    </div>
                                 </div>
 
                                 {msg.role === 'user' && (
